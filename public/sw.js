@@ -1,5 +1,13 @@
-const CACHE = 'manmanlai-v1'
-const CORE = ['/', '/index.html', '/manifest.webmanifest', '/icon.svg']
+const CACHE = 'manmanlai-v2'
+const CORE = [
+  '/',
+  '/index.html',
+  '/manifest.webmanifest',
+  '/icon.svg',
+  '/assets/积木区观察镜头.png',
+  '/media/audio/小熊开口.mp3',
+  '/media/video/斜坡卡住.mp4',
+]
 self.addEventListener('install', (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(CORE))))
 self.addEventListener('activate', (event) => event.waitUntil(self.clients.claim()))
 self.addEventListener('fetch', (event) => {
