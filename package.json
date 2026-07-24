@@ -1,0 +1,26 @@
+{
+  "name": "manmanlai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "生成配音": "node scripts/生成配音.mjs",
+    "生成动作镜头": "node scripts/生成动作镜头.mjs",
+    "等待视频任务": "node scripts/等待视频任务.mjs"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.45.0",
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}

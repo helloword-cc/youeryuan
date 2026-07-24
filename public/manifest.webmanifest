@@ -1,0 +1,9 @@
+{
+  "name": "慢慢来｜亲子社交练习",
+  "short_name": "慢慢来",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f0df",
+  "theme_color": "#f7f0df",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

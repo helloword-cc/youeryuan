@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Caches and temporary files
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.tmp
+*.temp
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
